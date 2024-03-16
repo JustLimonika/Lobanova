@@ -14,7 +14,7 @@ def f(v):  # сортировка пузырьком по типу языков 
     return v  # функция возвращает отсортированный список
 
 
-with open("C:\\Users\\Kids01\\Desktop\\Лобанова Софья Алексеевна школа 1518\\pythonProject1\\languages.csv",
+with open("C:\\Users\\Kids01\\Desktop\\Вариант 18\\languages.csv",
           encoding='utf8') as r:
     s = csv.reader(r, delimiter=';', quotechar='"')
     s = list(s)

@@ -1,6 +1,5 @@
 import csv  #
-with open("C:\\Users\\Kids01\\Desktop\\Вариант 18\\languages.csv",
-          encoding='utf8') as r:
+with open("languages.csv", encoding='utf8') as r:
     s = csv.reader(r, delimiter=';', quotechar='"')
     s = list(s)
     del s[0]
